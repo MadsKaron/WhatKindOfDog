@@ -20,3 +20,5 @@
 /Users/juyonglee/Desktop/Base Project/iOS/bin/iPhoneSimulator/Debug/System.Net.Http.Primitives.dll
 /Users/juyonglee/Desktop/Base Project/iOS/bin/iPhoneSimulator/Debug/Microsoft.WindowsAzure.Mobile.dll
 /Users/juyonglee/Desktop/Base Project/iOS/bin/iPhoneSimulator/Debug/Microsoft.WindowsAzure.Mobile.Ext.dll
+/Users/juyonglee/Desktop/Base Project/iOS/obj/iPhoneSimulator/Debug/optimized/sittingdog.png
+/Users/juyonglee/Desktop/Base Project/iOS/obj/iPhoneSimulator/Debug/optimized/whatkindofdoglogo.png

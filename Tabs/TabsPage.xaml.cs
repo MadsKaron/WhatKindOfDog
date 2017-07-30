@@ -10,10 +10,15 @@ namespace Tabs
             InitializeComponent();
         }
 
-		async void OnButtonClicked(object sender, EventArgs args)
+		async void developerInfoButtonClicked(object sender, EventArgs args)
 		{
 			Button button = (Button)sender;
-			await DisplayAlert("Clicked! ", "The button labeled'" + button.Text + "' has been clicked", "OK");
+			await DisplayAlert("Who is the Developer? ", "Hey, I am Jiwon. This app is for detecting dog's breed.\n Hope you enjoy it :^)" , "Cheers");
+		}
+
+		private void loadNextPage(object sender, EventArgs args)
+		{
+			Application.Current.MainPage = new CustomVision();
 		}
     }
 }

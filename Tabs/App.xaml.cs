@@ -8,7 +8,7 @@ namespace Tabs
         {
             InitializeComponent();
 
-			MainPage = new CustomVision();
+			MainPage = new TabsPage();
         }
 
         protected override void OnStart()

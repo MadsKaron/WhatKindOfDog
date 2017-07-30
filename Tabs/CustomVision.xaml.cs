@@ -18,7 +18,6 @@ namespace Tabs
 		{
 			InitializeComponent();
 			DetailButton.Opacity = 0;
-			//LogoImage.Source = ImageSource.FromFile("whatkindofdog.png");
 
 		}
 

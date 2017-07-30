@@ -1,13 +1,11 @@
 ﻿<Properties StartupConfiguration="{88F4404D-F0E5-47B1-B41A-D606D950223B}|Default">
-  <MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workbench ActiveDocument="Tabs/TabsPage.xaml.cs">
     <Files>
-      <File FileName="Tabs/App.xaml" Line="7" Column="1" />
-      <File FileName="Tabs/App.xaml.cs" Line="9" Column="32" />
-      <File FileName="Tabs/CustomVision.xaml.cs" Line="21" Column="6" />
-      <File FileName="Tabs/DataModels/DogInformationModel.cs" Line="12" Column="35" />
-      <File FileName="iOS/Info.plist" />
       <File FileName="Tabs/AzureManager.cs" Line="19" Column="76" />
       <File FileName="Tabs/AzureTable.xaml.cs" Line="13" Column="4" />
+      <File FileName="Tabs/CustomVision.xaml.cs" Line="88" Column="6" />
+      <File FileName="Tabs/TabsPage.xaml.cs" Line="13" Column="19" />
+      <File FileName="Tabs/App.xaml.cs" Line="9" Column="35" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
@@ -15,7 +13,7 @@
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.ItemProperties.Tabs.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.932FB14F-B4E0-4439-AB55-BEEE28C3E8AA" />
+  <MonoDevelop.Ide.ItemProperties.Tabs.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.ACC4855C-447C-4133-984A-796965816304" />
   <MultiItemStartupConfigurations />
   <MonoDevelop.Ide.ItemProperties.Tabs.Droid PreferredExecutionTarget="Android.Android_Accelerated_x86" />
 </Properties>
