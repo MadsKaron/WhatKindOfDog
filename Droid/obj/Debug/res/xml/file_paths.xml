@@ -1,0 +1,1 @@
+<paths xmlns:android="http://schemas.android.com/apk/res/android"><external-files-path name="my_images" path="Android/data/com.msa.tabs/files/Pictures" /><external-files-path name="my_movies" path="Android/data/com.msa.tabs/files/Movies" /></paths>

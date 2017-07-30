@@ -3,18 +3,16 @@
 	xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
 	x:Class="Tabs.CustomVision"
 	Title="Custom Vision" >
-	<StackLayout Margin="20" Orientation="Vertical">
-	<Button Text="Take Photo and Analyze" Clicked="loadCamera"/>
-	<StackLayout Orientation="Horizontal">
-		<Label x:Name= "TagLabel">
-		</Label>
-		<Label x:Name= "PredictionLabel">
-		</Label>
-	</StackLayout>
-
-
+	<StackLayout Margin="40" Orientation="Vertical">
+		<Image x:Name="LogoImage" Aspect="AspectFit" Source="whatkindofdoglogo.png" />	
+		<Button Text="Take Photo and Analyze" Clicked="loadCamera"/>
+		<StackLayout Orientation="Horizontal">
 		
+			<Label x:Name= "PredictionLabel"></Label>
+		</StackLayout>
+
 		<Image x:Name="image" Aspect="AspectFit"/>
+		<Label x:Name= "TagLabel" HorizontalTextAlignment="Center"></Label>
 		<Button x:Name="DetailButton" Text="More Details?" Clicked="DetailButton_Clicked"/>
 	</StackLayout>
 </ContentPage>

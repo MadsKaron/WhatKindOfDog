@@ -153,6 +153,9 @@
     <AndroidResource Include="Resources\drawable-xhdpi\icon.png" />
     <AndroidResource Include="Resources\drawable-xxhdpi\icon.png" />
     <AndroidResource Include="Resources\xml\file_paths.xml" />
+    <AndroidResource Include="Resources\drawable\whatkindofdog.png" />
+    <AndroidResource Include="Resources\drawable\sittingdog.png" />
+    <AndroidResource Include="Resources\drawable\whatkindofdoglogo.png" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Resources\xml\" />

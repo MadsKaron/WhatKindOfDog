@@ -17,7 +17,9 @@ namespace Tabs
 		public CustomVision()
 		{
 			InitializeComponent();
-			DetailButton.Opacity = 0;  
+			DetailButton.Opacity = 0;
+			//LogoImage.Source = ImageSource.FromFile("whatkindofdog.png");
+
 		}
 
 		private async void loadCamera(object sender, EventArgs e)
@@ -32,7 +34,7 @@ namespace Tabs
 
 			MediaFile file = await CrossMedia.Current.TakePhotoAsync(new StoreCameraMediaOptions
 			{
-				PhotoSize = PhotoSize.Medium,
+				PhotoSize = PhotoSize.Small,
 				Directory = "Sample",
 				Name = $"{DateTime.UtcNow}.jpg"
 			});
@@ -83,8 +85,9 @@ namespace Tabs
 					EvaluationModel responseModel = JsonConvert.DeserializeObject<EvaluationModel>(responseString);
 					double max = responseModel.Predictions.First().Probability;
 					var breed = responseModel.Predictions.First();
-					TagLabel.Text = (max >= 0.5) ? breed.Tag : "Hmmmm... Sorry cannot recognize your dog's breed ;)";
+					TagLabel.Text = (max >= 0.5) ? breed.Tag : "Hmmmm... Sorry cannot recognize your furry friend's breed ;)";
 
+					//Maybe instead of label, make alert..
 				}
 
 				DetailButton.Opacity = 1; 
